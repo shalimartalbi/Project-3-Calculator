@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Inter", Arial;
+}
+
+.background {
+  width: 100%;
+  background: gray;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.calculator-body {
+  width: 320px;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 28px;
+  background:  whitesmoke;
+}
+
+.display {
+  background: white;
+  border-radius: 18px;
+  padding: 16px;
+  margin-bottom: 16px;
+  text-align: right;
+}
+
+.screen {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.buttons {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 12px;
+}
+
+.buttons td {
+  width: 25%;
+}
+
+.button {
+  width: 100%;
+  height: 60px;
+  border: none;
+  border-radius: 18px; 
+  font-size: 18px;
+  font-family: "Inter", Arial;
+  cursor: pointer;
+  background: black;
+}
+
+
+.numbers {
+  background: lightgray;
+  color: white;
+}
+
+
+.operations {
+  background: dimgray;
+  color: white;
+}
+
+
+.clear {
+  background: red;
+  color: white;
+}
+
+
+.equals {
+  background: grey;
+  color: white;
+}
